@@ -14,9 +14,6 @@ abstract class Jeu{
         $this->score = 0;
     }
 
-    public function ajouterJoueur(Joueur $joueur) {
-        $this->lstJoueurs[] = $joueur;
-    }
 
     public function __get($name) {
         return $this->$name;
