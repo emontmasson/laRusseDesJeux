@@ -2,6 +2,8 @@
 
 namespace App\Models;
 
+use App\Models\Jeu;
+
 abstract class JeuDeDes extends Jeu
 {
 

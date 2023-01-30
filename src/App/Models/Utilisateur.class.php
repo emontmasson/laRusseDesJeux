@@ -4,8 +4,7 @@ namespace App\Models;
 
 class Utilisateur
 {
-    //Traits(on s'en sert pas pour l'instant.)
-    use \App\Traits\ManagerObject;
+
 
     // Attribut 
     private int $idUser;

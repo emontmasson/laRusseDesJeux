@@ -1,6 +1,9 @@
 <?php
 namespace App\Models;
-abstract class Jeu{
+use App\Models\Partie;
+
+abstract class Jeu
+{
 
 
     // score du jeu indépendamment du joueur
